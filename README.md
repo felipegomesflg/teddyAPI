@@ -45,8 +45,8 @@ Certifique-se de ter os seguintes softwares instalados:
 ### Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/felipegomesflg/teddyAPI
+cd teddy-api
 ```
 Instalar Dependências
 
@@ -59,14 +59,13 @@ npm install
 No PostgreSQL, execute o seguinte comando SQL para criar o banco de dados:
 
 ```sql
-CREATE DATABASE client_crud_db;
+CREATE DATABASE teddy;
 ```
 
 ### Variáveis de Ambiente
 Crie um arquivo .env na raiz do projeto e configure as variáveis de ambiente:
 
 ```env
-Copiar código
 DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=seu_usuario
@@ -83,12 +82,16 @@ Gere as migrações (caso necessário) e execute-as:
 ```bash
 # Gerar nova migração (se aplicável)
 npm run migration:generate
+```
 
 # Executar migrações
+```bash
 npm run migration:run
-Opção 2: Criar Tabelas Manualmente
-Caso prefira não usar migrações, você pode executar as queries SQL abaixo para criar a tabela:
 ```
+
+### Opção 2: Criar Tabelas Manualmente
+Caso prefira não usar migrações, você pode executar as queries SQL abaixo para criar a tabela:
+
 
 ```sql
 CREATE TABLE client (
@@ -118,9 +121,8 @@ Para rodar os testes unitários:
 
 ```bash
 npm run test
-Testes End-to-End (E2E)
 ```
-
+### Testes End-to-End (E2E)
 Para rodar os testes E2E:
 
 ```bash
