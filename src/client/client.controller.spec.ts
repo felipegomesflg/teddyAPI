@@ -38,7 +38,7 @@ describe('ClientController', () => {
       providers: [
         {
           provide: ClientService,
-          useValue: mockClientService, // Injeta o mock do serviço
+          useValue: mockClientService, 
         },
       ],
     }).compile();

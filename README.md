@@ -101,6 +101,31 @@ CREATE TABLE client (
   company VARCHAR(255) NOT NULL
 );
 ```
+Exemplo de dados para facilitar visualização no teste.
+
+```sql
+INSERT INTO client (name, salary, company) VALUES ('Diego', 9422.01, 'Visionary Systems');
+INSERT INTO client (name, salary, company) VALUES ('Isabela', 3381.21, 'InnovaTech');
+INSERT INTO client (name, salary, company) VALUES ('Marcos', 3381.21, 'Visionary Systems');
+INSERT INTO client (name, salary, company) VALUES ('Juliana', 5075.41, 'Prime Digital');
+INSERT INTO client (name, salary, company) VALUES ('Aline', 5574.98, 'Delta Systems');
+INSERT INTO client (name, salary, company) VALUES ('Larissa', 11701.22, 'Prime Digital');
+INSERT INTO client (name, salary, company) VALUES ('José', 6577.56, 'NextGen');
+INSERT INTO client (name, salary, company) VALUES ('Carlos', 5075.41, 'Skyline Innovations');
+INSERT INTO client (name, salary, company) VALUES ('Tiago', 3381.21, 'Delta Systems');
+INSERT INTO client (name, salary, company) VALUES ('Fernanda', 7456.7, 'Visionary Systems');
+INSERT INTO client (name, salary, company) VALUES ('Lucas', 5075.41, 'Prime Digital');
+INSERT INTO client (name, salary, company) VALUES ('Gabriela', 3381.21, 'Tech Solutions');
+INSERT INTO client (name, salary, company) VALUES ('Ana', 5574.98, 'Visionary Systems');
+INSERT INTO client (name, salary, company) VALUES ('Felipe', 8365.23, 'NextGen');
+INSERT INTO client (name, salary, company) VALUES ('Raquel', 3381.21, 'Tech Solutions');
+INSERT INTO client (name, salary, company) VALUES ('Ricardo', 10345.89, 'Visionary Systems');
+INSERT INTO client (name, salary, company) VALUES ('João', 5574.98, 'Skyline Innovations');
+INSERT INTO client (name, salary, company) VALUES ('Pedro', 11701.22, 'Delta Systems');
+INSERT INTO client (name, salary, company) VALUES ('Patrícia', 7456.7, 'Beta Enterprises');
+INSERT INTO client (name, salary, company) VALUES ('Juliana', 5075.41, 'NextGen');
+
+```
 
 ## 4. Rodar a Aplicação
 Após configurar o banco de dados e instalar as dependências, inicie o servidor local:
